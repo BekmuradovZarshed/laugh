@@ -1,0 +1,41 @@
+// // [1200 - 992]; [991 - 768]; [767 - 576]; [575 - 320];
+
+@media (max-width: 1200px) {
+    .main{
+      .container{
+        .main_items{
+            .main_form{
+                width: 650px;
+                height: 650px;
+                img{
+                    width: 220px;
+                    height: 220px;
+                }
+                form{
+                    .laugh_box{
+                        width: 480px;
+                        font-size: 20px;
+                    }
+                    button{
+                        margin-top: 50px;
+                        font-size: 20px;
+                        width: 200px;
+                        height: 50px;
+                    }
+                }
+            }
+          }
+      }
+    }
+}
+@media (max-width: 768px) {
+    .main{
+        .container{
+            .main_items{
+                .main_form{
+                    width: 750px;
+                }
+            }
+        }
+    }
+}
